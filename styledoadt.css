@@ -10,7 +10,7 @@ body{
 main{
     color: rgb(0, 0, 0);
     background-color: white;
-    width: 300px;
+    max-width: 600px;
     margin:auto;
     border-radius: 15px;
     padding: 20px;
