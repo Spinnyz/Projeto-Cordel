@@ -2,7 +2,7 @@ body{
     background-color: black;
     background-image: url(Imagens/wallpaper002.jpg);
     background-position: center top;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     font-family: 'Arial';
 }
@@ -10,7 +10,7 @@ body{
 main{
     color: rgb(0, 0, 0);
     background-color: white;
-    width: 400px;
+    width: 300px;
     margin:auto;
     border-radius: 15px;
     padding: 20px;
