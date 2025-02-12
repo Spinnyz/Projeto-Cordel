@@ -23,3 +23,8 @@ body{
     color: red;
     transition: 1s ;
 }
+
+.normal{
+    padding: 10px;
+    
+}
