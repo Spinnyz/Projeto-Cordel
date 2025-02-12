@@ -1,37 +1,25 @@
 body{
-    margin: 0%;
-    padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(Imagens/wallpaper004.jpg);
+    background-color: #fff;
+    color: #;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
-h1#cabe{
-    text-align: left;
-}
-
-abbr{
-    text-decoration: none;
-}
-header{
-    background-color: #574141;
-    color: rgb(238, 32, 32);
-    padding: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-}
-a{
-    color: rgb(255, 255, 255);
+.container{
+    width: 100vw;
+    color:#fff;
+    background-color: black;
     padding:10px;
-    text-decoration: none;
-}
-
-nav{
-    
-    color: white;
-    padding: 10px;
     text-align: center;
 }
 
-a:hover{
-    
-    color: rgb(238, 32, 32);
+.container a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.container a:hover{
+    color: red;
+    transition: 1s ;
 }
