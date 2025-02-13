@@ -52,7 +52,7 @@ a:hover{
 
 /*Poema*/
 
-.normal{
+section.normal{
     padding: 30px;    
     font-family: var(--fonte3);
     font-size: 3.5vw;    
@@ -61,23 +61,29 @@ a:hover{
     margin-bottom: 20px;
 }
 
-section.imagem {
-    background-color: rgb(51, 51, 51);
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+section.imagem{
+    background-color: rgb(175, 137, 137);
+    font-family: var(--fonte3);
+    color: #fff;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-attachment: fixed;
 }
 
-section.imagem > p {
+section.imagem > p{
     display: inline-block;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
+    padding: 30px;
+    font-size: 3.5vw;
+    text-shadow: 1px 1px 0px black transparent;
+
 }
 
-section#img01 {
-    background-image: url(Imagens/wallpaper003.jpg);
+section#img01{
+    background-image: url(Imagens/background001.jpg);
+    background-size: cover;
     background-position: right center;
-    
+}
+
+section#img02{
+    background-image: url(Imagens/background002.jpg);
 }
