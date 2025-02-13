@@ -70,11 +70,11 @@ section.imagem{
     background-attachment: fixed;
 }
 
-section.imagem > p{
+.imagem  p{
     display: inline-block;
     padding: 30px;
     font-size: 3.5vw;
-    text-shadow: 1px 1px 0px black transparent;
+    text-shadow: 1px 1px 0px black;
 
 }
 
@@ -86,4 +86,13 @@ section#img01{
 
 section#img02{
     background-image: url(Imagens/background002.jpg);
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
 }
